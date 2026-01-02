@@ -1,0 +1,86 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.actions {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+button {
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #6c25ff;
+  color: #fff;
+  border: none;
+}
+
+button.secondary {
+  background: #ede5ff;
+  color: #6c25ff;
+  border: none;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.profile-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info .name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.profile-info .email {
+  font-size: 13px;
+  color: #666;
+}
+
+.profile-desc {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
